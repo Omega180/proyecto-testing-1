@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.contenedorPrincipalEditar {
+	width: 100%;
+	height: 100%;
+}
+
+/* CSS del Formulario de agregado de estudiantes y Profesores */
+
+.edicionFormulario {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	height: 750px;
+	background-color: #02c9b5;
+	font-family: Lato, sans-serif;
+}
+
+.edicionNotas {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	height: 750px;
+	background-color: #02c9b5;
+	font-family: Lato, sans-serif;
+}
+
+.tituloEditar {
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+.cursoTitulo {
+	font-size: 40px;
+	display: block;
+	background-color: #e5e5f7;
+	border: 5px, solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.formularioPrincipal {
+	font-family: Lato, sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	width: 400px;
+	min-height: 500px;
+	margin-top: 60px;
+	border: 5px solid #e5e5f7;
+	background-color: white;
+	border-radius: 4px;
+}
+.contenedorLista1 {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+/* CSS de Agregado de notas */
+
+.notasEditar {
+	display: block;
+	margin-left: 50px;
+	width: 100%;
+}
+
+.contenedorNotas {
+	display: block;
+}
+
+.notaInput {
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	width: 60px;
+	height: 30px;
+	border-radius: 0px 6px 6px 6px;
+	border: 5px solid #d0d0d5;
+	font-size: 20px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, 0.68);
+	-webkit-box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, 0.68);
+	-moz-box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, 0.68);
+}
+
+.botonSubmitEditar {
+	margin-top: 5rem;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.estudianteNotas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedorDeAlumnos {
+	display: flex;
+	gap: 20px;
+}
+
+.alumnoContenedorPrincipal {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+}
+
+.contenedorLista2 {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 90%;
+	background-color: #338f99;
+}
+
+.botonSubmitEditarNotas {
+	margin-top: 20px;
+}
+
+.notaFinal {
+	width: 200px;
+}
+
+.resultado {
+	margin-top: 1em;
+}
+
+.claseOculta {
+	display: none;
+}

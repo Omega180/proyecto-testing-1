@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.tituloLista {
+	padding-top: 10px;
+	height: 100%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #338f99;
+}
+
+.tituloListaSQL {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+}
+
+.contenedorListas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 200px;
+	flex: 1 1;
+	justify-content: center;
+	height: 800px;
+	width: 90%;
+	background-color: #338f99;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	margin-top: 10px;
+	border: 1px solid black;
+}
+
+.titulos {
+	padding-right: 10px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.respuestas {
+	padding-right: 10px;
+}
