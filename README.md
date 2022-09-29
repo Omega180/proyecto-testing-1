@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Proyecto Work in Progress
+Proyecto Work in Progress, para poder utilizar el servidor que se encuentra en el otro repositorio copiar la carpeta entera de proyecto1 dentro de la carpeta del servidor
 
 ## Available Scripts
 
